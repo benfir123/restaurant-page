@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 100px 800px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    gap: 24px;
+}
+
+.restaurant-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: 0px solid transparent;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: rgb(254,218,117);
+    background: linear-gradient(90deg, rgba(254,218,117,1) 0%, rgba(250,126,30,1) 30%, rgba(214,41,118,1) 60%, rgba(150,47,191,1) 90%, rgba(79,91,213,1) 100%);
+}
+
+button:hover {
+    filter: invert(10%)
+}
+
+button:active {
+    filter: contrast(60%);
+}
+
